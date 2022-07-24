@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App";
 import Request from "./utils/request";
 
+// config 配置与luch-request配置一致，可以自定义
+// const config = { baseURL: 'xxx.api.com'}
+// const http = new Request(config);
 const http = new Request();
 
 uni.http = http;
